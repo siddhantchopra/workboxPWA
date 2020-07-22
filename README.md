@@ -6,7 +6,7 @@ To get started with Workbox (developed by google for PWA)
 ### `workbox wizard`
 ### `workbox generateSW`
 
-## Then create a file in root directory named "src-sw.js" and paste the following code
+Then create a file in root directory named "src-sw.js" and paste the following code
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 workbox.routing.registerRoute(
