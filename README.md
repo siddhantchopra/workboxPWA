@@ -1,6 +1,6 @@
 ## Available Scripts
 
-To get started with Workbox (developed by google for PWA)
+To get started with Workbox V5 (developed by google for PWA)
 
 ### `npm install workbox-cli`
 ### `workbox wizard`
