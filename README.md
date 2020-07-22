@@ -6,8 +6,9 @@ To get started with Workbox (developed by google for PWA)
 ### `workbox wizard`
 ### `workbox generateSW`
 
-Then create a file in root directory named "src-sw.js" and paste the following code
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+# `Then create a file in root directory named "src-sw.js" and paste the following code`
+
+`importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 workbox.routing.registerRoute(
     new RegExp('https://jsonplaceholder.typicode.com/users'),
@@ -29,10 +30,10 @@ workbox.routing.registerRoute(
     }),
   );
 
-workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
+workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);`
 
 ## Add following code to workbox-config.js
-"swSrc": "src-sw.js"
+`"swSrc": "src-sw.js"`
 
 ## run `workbox injectManifest`
 
